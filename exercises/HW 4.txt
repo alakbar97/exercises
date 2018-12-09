@@ -1,0 +1,39 @@
+function decToHexa(a){
+var result=0;
+var i=1;
+while(a>0)
+{
+result = (a%16)*i+result
+if{
+result==10 console.log(decToHexa(A))
+result==11 console.log(decToHexa(B))
+result==12 console.log(decToHexa(C))
+result==13 console.log(decToHexa(E))
+result==14 console.log(decToHexa(D))
+result==15 console.log(decToHexa(F))
+}
+a=(a-a%16)/16
+i=i*10;
+}
+return result;
+}
+console.log(decToHexa())
+________________________________________________________________________________________________________________
+function PerfectNumber(a) {
+  
+  var sum = 0;
+  
+  for (var i = 1; i < a; i=i+1) {
+    
+    if (a % i == 0) {
+      sum =sum + i;
+    }
+  }
+  
+  if (sum == a) {
+    return true;
+  }
+  
+  return false;
+}
+ console.log(PerfectNumber())

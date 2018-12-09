@@ -1,0 +1,41 @@
+#main{
+    border: 1px solid black;
+    width: 1280px;
+    height: 720px;
+}
+#first{   
+     border: 0.1px solid black;
+    width: 1280px;
+    height: 200px;
+}
+#second{    
+    border: 0.1px solid black;
+    width: 1280px;
+    height: 400px;
+}
+#third{
+    border: 0.1px solid black;
+    width: 1280px;
+    height: 120px;
+    
+}
+#num1{
+   
+    width: 240px;
+height: 400px;
+float: left;
+}
+#num2{
+   
+    border: 1px solid black;
+width: 800px;
+height: 400px;
+float: left;
+}
+#num3{
+   
+
+width: 236px;
+height: 400px;
+float: left;
+}
