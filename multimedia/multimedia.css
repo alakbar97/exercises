@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box
+}
+
+.main{
+    border: 1px solid black;
+    width: 1280px;
+    height: 720px;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap
+}
+.first{
+    border: 1px solid black;
+    width: 980px;
+    height: 300px;
+}
+.second{
+    border: 1px solid black;
+    width: 298px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    height: 25%;
+}
+.third{
+    border: 1px solid black;
+    width: 1280px;
+    height: 210px;
+    align-self: flex-end;
+    background-image: url("../New\ folder/lion.jpeg")
+}
+.vid{
+    margin-bottom: 230px
+}
