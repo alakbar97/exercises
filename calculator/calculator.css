@@ -17,6 +17,11 @@
     height: 35px;
     font-size: 25px;
 }
+.operand{
+    width: 50px;
+    height: 35px;
+    font-size: 25px;
+}
 .equal{
     height: 152px;
     background: skyblue
