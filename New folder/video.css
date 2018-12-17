@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box
+}
+.main{
+    border: 1px solid black;
+    background: #01FF70;
+    width: 1280px;
+    height: 630px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.first{
+    width:400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.second{
+    border:1px solid black;
+    background: #FE840E;
+    width:400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+.Image{
+    background: #00539C;
+    border:1px solid black;
+    width: 400px;
+    height: 200px;
+}
+.second div{
+    border: 1px solid black;
+    width: 250px;
+    height: 100px;
+}
+.second img{
+    border-radius: 100%
+}
