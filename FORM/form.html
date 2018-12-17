@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+    <div class="main">
+        <div class="head">
+            <div><h1 style="margin-left: 100px">facebook</h1></div>
+            <div class="register">
+            <div>          
+                 <label for="email">Email or Phone</label> <br/>
+                <input type="email" name="mail">
+             </div>
+             <div>
+            <label for="password">Password</label> <br/>
+                <input type="password"><br/>
+                <a href="https://www.facebook.com/" target="blank">Forget Password?</a>
+            </div>
+            <input class="login" type="submit" value="Log In" style="height:21px">
+        </div>
+        </div>
+        <div class="left">
+            <h1>Connect with friends and the<br/>
+                world around you on Facebook.</h1>
+                <div>
+                <img src="1.jpg" style="float:left"><br/><b>See photos and updates</b> from friends in News Feed.
+                </div>
+                <div>
+                <img src="2.jpg" style="float:left"><br/><b>Share what's new</b> in your life on your Timeline.
+                </div>
+                <div>
+                    <img src="3.jpg" style="float:left"><br/><b>Find more</b> of what you're looking for with Facebook Search.
+                </div>
+        </div>
+        <div class="right">
+            <h1>Sign Up</h1>
+            <h3>It’s free and always will be.</h3>
+            <input class="reg" type="text" name="First Name" placeholder="First Name" pattern="[a-z]{1,15}"> &nbsp;
+            <input class="reg" type="text" name="Last Name" placeholder="Last Name" pattern="[a-z]{1,15}"><br/><br/>
+            <input class="reg" type="text" name="Mobile number or email" placeholder="Mobile number or email" size="47"><br/><br/>
+            <input class="reg" type="password" name="New password" placeholder="New password" size="47" pattern="(?=.*[a-z])(?=.*[A-Z]).{6,28}">
+            <h1>Birthday</h1>
+            <input type="date" name="birthday" max="2010-01-01" min="1900-01-01">
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Male
+            <h4>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</h4>
+            <input type="submit" value="Sign Up" style="background: green; width:150px; height:30px ; ">
+        </div>
+    </div>
+</form>
+</body>
+</html>

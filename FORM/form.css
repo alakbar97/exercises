@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap
+}
+.head{
+    width: 1200px;
+    height: 100px;
+    background:blue;
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    background: rgba(75, 75, 212, 0.589);
+    width: 50%;
+    height: 500px;
+}
+.left{
+    background: rgba(75, 75, 212, 0.589);
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+label{
+    color: white
+}
+.register{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.login{
+    margin-top: 19px;
+    background: blue;
+    color: white;
+}
+a{
+    color: aqua
+}
+.reg{
+    height: 40px;
+    border-radius: 10%
+}
