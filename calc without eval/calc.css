@@ -3,7 +3,6 @@
 	padding: 0px;
 }
 body{
-	background-image:url(bg.jpg);
 	background-size: cover;
     background-attachment: fixed;
 }
@@ -17,9 +16,7 @@ body{
     height: 406px;
     width: 350px;
     margin: 40px auto;
-    background-color: #474473;
-    border: 3px inset #eac595;
-    border-radius: 17px;
+    background-color: #000000;
     padding: 40px 30px;
 }
 .screen{
@@ -29,7 +26,7 @@ body{
     padding: 16px 10px;
     border: 1px solid #283d6d;
     border-radius: 11px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 #numdisplay{    
 	height: 42px;
@@ -42,8 +39,6 @@ body{
 .keypad {
     width: 290px;
     height: 206px;
-    border: 1px dotted #27b04a;
-    border-radius: 14px;
     margin: 14px;
     padding: 12px;
 }
@@ -70,10 +65,3 @@ input:hover{
 }
 
 
-footer{
-    height: 40px;
-    text-align: center;
-    font: bold normal 30px Verdana;
-    background-color: black;
-    color: gold;
-}
