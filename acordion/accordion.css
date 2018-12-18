@@ -1,0 +1,40 @@
+#first{
+    border:1px solid black;
+    width: 400px;
+    height: 50px;
+    background: black;
+    color: white;
+}
+.option1{
+    display: none
+}
+.option2{
+    display: none
+}
+.option3{
+    display: none
+}
+.option4{
+    display: none
+}
+#second{
+    border:1px solid black;
+    width: 400px;
+    height: 50px;
+    background: black;
+    color: white;
+}
+#third{
+    border:1px solid black;
+    width: 400px;
+    height: 50px;
+    background: black;
+    color: white;
+}
+#fourth{
+    border:1px solid black;
+    width: 400px;
+    height: 50px;
+    background: black;
+    color: white;
+}
